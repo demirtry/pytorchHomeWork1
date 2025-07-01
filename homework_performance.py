@@ -142,8 +142,6 @@ if __name__ == "__main__":
         cpu_times.append(cpu_current)
         gpu_times.append(gpu_current)
 
-    print(cpu_times)
-    print(gpu_times)
     plot_table(cpu_times, gpu_times) # построение таблицы
 
 
